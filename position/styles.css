@@ -1,0 +1,64 @@
+.parent {
+    background-color: black;
+    position: absolute;
+    margin: 10px;
+    padding: 10px;
+}
+
+.child {
+   position: relative;
+   height: 30px;
+   width: 30px;
+   margin: 10px;
+}
+
+.child:nth-child(1) {
+    background-color: blue;
+    
+    bottom: 50px;
+    right: 20px;
+}
+
+.child:nth-child(2) {
+    background-color: green;
+    left: 50px;
+    bottom: 60px;
+}
+
+.child:nth-child(3) {
+    background-color: red;
+    right: 50px;
+    top:60px
+}
+
+.child:nth-child(4) {
+    background-color: yellow;
+    top:50px;
+    left: 20px;
+
+}
+
+/* position absolute
+works as inline blcok 
+1 bellow other but occupy only required space.
+will always sart from (0,0)
+and will move top bottom right left from parent.
+top and left wins 
+ingnores come to z index 
+
+
+in relative position it shifts from itself
+
+by default it is static 
+
+auto css 
+works on left right inly
+
+
+to make center
+margin: top bottom
+margin: calc(50vh - (half height of div)) calc(50vw - ())
+*/
+
+
+

@@ -1,0 +1,16 @@
+body{
+    margin:0%
+}
+.block{
+    background-color: red;
+    position: relative;
+    height: 100vh;
+   width: calc(100vw / 3); 
+}
+.block:nth-child(2){
+    background-color: aqua;
+    height: 100vh;
+    left: 255px;
+    bottom: 750px;
+    
+}

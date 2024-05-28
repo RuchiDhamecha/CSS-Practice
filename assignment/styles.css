@@ -1,0 +1,65 @@
+.box {
+    box-sizing: content-box;
+    position: absolute;
+    border: 5px double black;
+    height: 240px;
+    width: 240px;
+    /* margin: auto; centers it vertically */
+    margin: calc(50vh - 120px) calc(50vw - 120px);
+}
+
+.parent {
+    
+    width: 0;
+    /* position: absolute; */
+   
+    width: 50px;
+    height: 50px;
+    background-color: rgb(156, 255, 240);
+    margin: 95px ;
+    /* margin: auto;  */
+    top:20px;
+    
+}
+
+.child {
+    position: relative;
+    height: 20px;
+    width: 20px;
+}
+
+.child:nth-child(1) {
+    background-color: rgb(188, 219, 53);
+    right: 28px;
+    bottom: 20px;
+}
+
+.child:nth-child(2) {
+    background-color: brown;
+    bottom: 38px;
+    left: 83px;
+}
+
+.child:nth-child(3) {
+    background-color: rgb(42, 165, 73);
+    left: 78px;
+    top: 83px;
+}
+
+.child:nth-child(4) {
+    background-color: rgb(77, 42, 165);
+    right: 53px;
+    top: 100px
+}
+.triangle{
+    /* background-color: aqua; */
+    border: 60px solid black;
+    width: 0%;
+    border-bottom: 60px solid red;
+}
+.triangle1{
+    /* background-color: aqua; */
+    border: 60px solid black;
+    width: 0%;
+    border-top: 60px solid red;
+}

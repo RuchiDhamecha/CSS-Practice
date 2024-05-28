@@ -1,0 +1,21 @@
+.inline{
+    padding:50px;
+    background-color: blueviolet;
+    border: thick solid black;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+.block{
+    padding: 20px;
+    background-color: aqua;
+    border: thick solid black;
+    border-radius: 50%;
+    font-size: 0%;
+}
+/* by default font size applied to span so it affect on css of padding and height
+border color black by default
+margin collapsing
+
+no top bottom margin in inline elements 
+no margin collapsing in inline ekements
+ */

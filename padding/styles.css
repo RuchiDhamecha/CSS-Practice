@@ -1,0 +1,14 @@
+body{
+   margin: 0px;
+}
+.parent{
+        padding: 5px;
+        background-color: orange;
+}
+.child{
+    padding: 16px;
+    margin: 5px;
+    border: thin solid;
+    background-color: aqua;
+}
+

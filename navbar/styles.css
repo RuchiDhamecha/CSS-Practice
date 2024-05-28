@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.main{
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(207, 161, 253);
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+  
+}
+img{
+    height: 70px;
+    width: 70px;
+}

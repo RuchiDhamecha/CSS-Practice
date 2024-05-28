@@ -1,0 +1,43 @@
+body{
+    margin: 0%;
+}
+.section{
+    padding: 4px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    box-shadow:0 4px 8px 4px #ccc;
+    border-radius: 4px;
+    position: relative;
+    
+}
+.important::before{
+ content: '';
+ position: absolute;
+ padding: 4px;
+ background-color: red;
+ border-radius: 4px;
+ left: calc(100% - 18px);
+ top:12px;
+}
+.button{
+    padding: 8px 24px;
+    background-color: blue;
+    color: white;
+}
+.button:hover{
+    background-color: rgb(100, 100, 249);
+    transition: background-color 0.3s, color 0.3s;
+    content: 'abc';
+    visibility: visible;
+}
+
+.button:active{
+    background-color: rgb(8, 4, 47);
+}
+.hide{
+    display: visible;
+}
+.hide:hover{
+    visibility:hidden;
+    background-color: blue;
+}

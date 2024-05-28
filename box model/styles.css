@@ -1,0 +1,78 @@
+/* specificity
+(important,inline css, id,class,tag)
+(0,3)
+Cascade Algorithm (for conflit resolution of styles)
+1. general rules      // by default css from browser
+2. source of origin   // priority wise --->> inline > internal > external
+3. specificity ( id,class,tag)
+4. position      // css written below , will be prioritize
+
+
+.class1.class2{
+    //1 tag has both classes
+}
+
+.class1 .class2{
+    class2 is inner class
+}
+
+/* we cant manipulate height width of inline elements like span */
+
+/* we dont use top bottom padding for inline elements 
+becoz ...
+*/ 
+.first{
+    background-color: green !important;
+}
+#hello{
+    color: blue;
+}
+
+#hello{
+    color: brown;
+}
+
+.second .first{
+    color: pink;
+}
+#second{
+    color: chocolate;
+}
+
+.firstdiv{
+    color: yellow;
+}
+
+.seconddiv{
+    color: green;
+}
+
+.firstdiv .seconddiv{
+    color: rgb(40, 40, 168);
+}
+
+.box{
+   background-color: cadetblue; 
+   height: 50px;
+   width: 190px;
+}
+/* padding can be applied  == 
+padding: up right down left
+padding: UR RL
+padding: 10px //same to all sides */
+#boxid{
+    background-color: aqua;
+    padding: 30px 60px ;
+    border: 5px solid black;
+    height: 50px;
+    width: 190px;
+    border-radius: 50px;
+    /* still it will occupy all the space of box but it will be invisile  */
+}
+#boxid2{
+    background-color: rgb(202, 178, 21);
+    padding: 0px 40px ;
+    border: 5px solid black;
+    height: 50px;
+    width: 190px;
+}

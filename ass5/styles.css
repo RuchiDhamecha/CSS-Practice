@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+.section{
+    margin: 8px;
+    box-shadow: 0 0 4px 4px #ecebeb;
+    padding: 16px;
+}
+.line{
+    background-color: aqua;
+    padding: 8px;
+    /* margin: 4px; */
+}
+
+flex direction- row row reverse col

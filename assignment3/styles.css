@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+.section{
+    padding: 16px;
+    margin: 16px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 4px #ccc;
+}

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+
+.sectionup{
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    background-color: aqua;
+    margin: 16px 16px 16px 16px;
+    
+    padding: 20vh 24vw;
+    position: relative;
+    float: left;
+}
+.sectiondown{
+    position: relative;
+    border: 1px solid #000000;
+    background-color: blueviolet;
+    float: left;
+    top: 42vh;
+    right: 48vw;
+    padding:28vh 24vw;;
+}
+.section2{
+    margin: 16px 16px 16px 16px;
+    position: relative;
+    float: right;
+    bottom: 100vh;
+    left: 51vw;
+    padding: 70vh 50vw;
+    border: 1px solid #000000;
+
+    background-color:green;
+}
